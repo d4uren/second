@@ -17,3 +17,9 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+
+if (4 == 4) {
+    console.log('Ok');
+} else {
+    console.log('Error');
+}
