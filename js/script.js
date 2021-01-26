@@ -33,3 +33,24 @@ if (num < 49) {
 } else {
     console.log('Ok!');
 }
+
+const num = 50;
+
+(num === 50) ? console.log('Ok!') : console.log('Error');
+
+const num = 50;
+
+switch (num) {
+    case 49:
+        console.log('Неверно');
+        break;
+    case 100:
+        console.log('Неверно');
+        break;
+    case 50:
+        console.log('Отлично!');
+        break;
+    default:
+        console.log('Не в этот раз');
+        break;
+}
