@@ -54,3 +54,10 @@ switch (num) {
         console.log('Не в этот раз');
         break;
 }
+
+let num = 50;
+
+while (num < 55) {
+    console.log(num);
+    num++
+}
